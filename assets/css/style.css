@@ -2,7 +2,7 @@
 [Table of styles content]
 
 1 - Header
-2 - Hero
+2 - slider
 3 - CTA
 4 - Services
 5 - Featured
@@ -131,38 +131,36 @@ form button.btn-primary:hover{
     background-color: #fff;
     color: #c0cd29;
 } 
-  /*-----------------------------------
-      1 - Hero
-  ------------------------------------*/
-.hero{
+/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
+##### ##### ##### #####  Slider  ##### ##### ##### #####
+*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
+.slider{
     background: url("https://i.postimg.cc/BvbwL70L/-slider-bg.jpg") no-repeat center;
     background-size: cover;
     overflow: hidden;
     position: relative;
     z-index: 0;
 }
-.hero .container{
+.slider .container{
     position: relative;
     z-index: 5;
 } 
-.hero .slide-content{
+.slider .slide-content{
     min-height: 600px;
     color: #f5f5f5;
 } 
-.hero .slide-content span{
+.slider .slide-content span{
     color: #c0cd29;
 }
-  
-.hero .slide-content h1{
+.slider .slide-content h1{
     color: #f5f5f5;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.56);
     text-transform: uppercase;
     -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
             transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
     font-weight: bold;
-}
-  
-.hero .slide-content p{
+} 
+.slider .slide-content p{
     color: #322f2c;
     -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
             transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
@@ -171,18 +169,15 @@ form button.btn-primary:hover{
     border-top-right-radius: 100px;
     border-bottom-left-radius: 10px;
     margin-bottom: 0;
-}
-  
-.hero .slide-content .btn{
+} 
+.slider .slide-content .btn{
     margin-top: 50px;
-}
-  
-.hero .slide-content .btn:last-child{
+} 
+.slider .slide-content .btn:last-child{
     margin-left: 30px;
-}
-  
-.hero .arr-left,
-.hero .arr-right{
+} 
+.slider .arr-left,
+.slider .arr-right{
     font-size: 3rem;
     display: block;
     color: #fff;
@@ -192,18 +187,15 @@ form button.btn-primary:hover{
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     z-index: 9;
-}
-  
-.hero .arr-left:hover,
-.hero .arr-right:hover{
+} 
+.slider .arr-left:hover,
+.slider .arr-right:hover{
     cursor: pointer;
 }
-  
-.hero .arr-right{
+.slider .arr-right{
     right: 15px;
-}
-  
-.hero .diag-bg{
+} 
+.slider .diag-bg{
     width: 100%;
     height: 100%;
     -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
@@ -213,9 +205,8 @@ form button.btn-primary:hover{
     top: 0;
     left: 0;
     z-index: -1;
-}
-  
-.hero::after{
+} 
+.slider::after{
     content: "";
     width: 100%;
     height: 2px;
@@ -223,9 +214,8 @@ form button.btn-primary:hover{
     position: absolute;
     left: 0;
     bottom: 29%;
-}
-  
-.hero::before{
+} 
+.slider::before{
     content: "";
     width: 100%;
     height: 2px;
@@ -243,122 +233,71 @@ form button.btn-primary:hover{
     color: #fff;
     background-color: #c0cd29;
     border-color: #c0cd29;
-  }
-  
-  .btn-primary:focus, .btn-primary.focus {
+} 
+.btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(192, 204, 41, 0.5);
-  }
-  
-  /*-----------------------------------
-      1 - CTA
-  ------------------------------------*/
-.cta-content{
-    padding: 30px 0 90px;
-    color: #fff;
-    background-color: #ee1515;
-    position: relative;
-    z-index: 1;
 }
-  
-.cta-content::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: rgba(24, 9, 53, 0.77);
-    position: absolute;
-    top: -25px;
-    left: -1px;
-    z-index: -1;
-    transition: all 0.2s ease-in-out;
-}
-  
-.cta-content .subscribe-btn{
-    align-self: flex-end;
-    margin-right: 30px;
-}
-  
-  /*-----------------------------------
-      1 - Services
-  ------------------------------------*/
+
+/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
+##### ##### ##### ##### Services ##### ##### ##### #####
+*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 .title{
     font-weight: 700;
     text-transform: uppercase;
-}
-  
-.title h6{
-    letter-spacing: 4px;
-    margin-bottom: 20px;
-}
-  
+    color: #322f2c;
+} 
 .title h1{
     font-size: 35px;
-}
-  
-.title .title-blue{
-    color: #26264b;
-}
-  
-.title .title-primary{
-    color: #ee1515;
-}
-  
+}  
 .services{
     padding: 80px 0 50px;
-}
-  
+} 
 .services .title{
     margin-bottom: 20px;
-}
-  
+} 
 .services .media{
     margin: 40px 0;
-}
-  
+} 
 .services h5{
-    color: #26264b;
+    color: #322f2c;
     border-bottom: 2px solid #e7e7e7;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
   
-  /*-----------------------------------
-      1 - Featured
-  ------------------------------------*/
+/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
+##### ##### ##### ##### Featured ##### ##### ##### #####
+*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 .featured{
     padding: 80px 0;
     background-color: #fafafa;
 }
-  
 .featured p{
     margin: 35px 0 53px;
-}
-  
+} 
 .featured .media i{
     font-size: 24px;
-    color: #ee1515;
-}
-  
+    color: #c0cd29;
+} 
 .featured .media h5{
     text-transform: uppercase;
-    color: #26264b;
-}
-  
+    color: #322f2c;
+} 
 .featured .btn{
     margin-top: 80px;
-}
-  
+} 
 .featured-img{
     position: relative;
     height: 530px;
     margin-top: 60px;
-}
-  
+} 
 .featured-big{
     position: absolute;
     bottom: 0;
     right: 0;
-}
-  
+    margin-right: 240px;
+    z-index: 5;
+} 
 .featured-small{
     position: absolute;
     bottom: 0;
