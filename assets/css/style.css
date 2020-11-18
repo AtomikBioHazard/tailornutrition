@@ -3,10 +3,8 @@
 
 1 - Header
 2 - slider
-3 - CTA
 4 - Services
 5 - Featured
-6 - Recent Posts
 7 - Trust
 8 - Pricing Tables
 9 - Testimonials
@@ -15,6 +13,7 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
+
 /*** *** *** *** *** *** *** *** *** *** *** *** *** ***
 ##### ##### ##### #####  Header  ##### ##### ##### #####
 *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
@@ -46,7 +45,7 @@ header::after{
     margin-right: 30px;
 } 
 .contact i{
-    color: #c0cd29;
+    color: #c1d60d;
     margin-right: 10px;
 }
 .login{
@@ -61,7 +60,7 @@ header::after{
     text-decoration: none;
 }
 .login i{
-    color: #c0cd29;
+    color: #c1d60d;
     margin-right: 8px;
 } 
 .navbar-brand h1{
@@ -80,7 +79,7 @@ header::after{
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 1px solid #c0cd29;
+    border: 1px solid #c1d60d;
     border-radius: 4px;
     line-height: 40px;
     text-align: center;
@@ -89,7 +88,7 @@ header::after{
 }
 .social a:hover{
     color: #f5f5f5;
-    background-color: #c0cd29;
+    background-color: #c1d60d;
 }
 .navbar-brand img{
     width: 135px;
@@ -110,7 +109,7 @@ header::after{
     transition: all 0.2s ease-in-out;
 }
 .navbar-collapse .nav-link:hover{
-    color: #c0cd29;
+    color: #c1d60d;
 }
 .cart,
 .login-icon,
@@ -121,7 +120,7 @@ header::after{
 .cart:hover,
 .login-icon:hover,
 .search-icon:hover{
-    color: #c0cd29;
+    color: #c1d60d;
 }
 .cart{
     margin-left: 20px;
@@ -129,8 +128,9 @@ header::after{
 form input.btn-primary:hover,
 form button.btn-primary:hover{
     background-color: #fff;
-    color: #c0cd29;
-} 
+    color: #c1d60d;
+}
+
 /*** *** *** *** *** *** *** *** *** *** *** *** *** ***
 ##### ##### ##### #####  Slider  ##### ##### ##### #####
 *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
@@ -150,7 +150,7 @@ form button.btn-primary:hover{
     color: #f5f5f5;
 } 
 .slider .slide-content span{
-    color: #c0cd29;
+    color: #c1d60d;
 }
 .slider .slide-content h1{
     color: #f5f5f5;
@@ -200,7 +200,7 @@ form button.btn-primary:hover{
     height: 100%;
     -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
             clip-path: polygon(0 0, 100% 100%, 100% 0);
-    background-color: rgba(192, 205, 41, 0.3);
+    background-color: rgba(193, 214, 13, 0.3);
     position: absolute;
     top: 0;
     left: 0;
@@ -226,13 +226,13 @@ form button.btn-primary:hover{
 }
 .btn-primary {
     color: #fff;
-    background-color: #c0cd29;
-    border-color: #c0cd29;
+    background-color: #c1d60d;
+    border-color: #c1d60d;
 }
 .btn-primary:hover {
     color: #fff;
-    background-color: #c0cd29;
-    border-color: #c0cd29;
+    background-color: #c1d60d;
+    border-color: #c1d60d;
 } 
 .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(192, 204, 41, 0.5);
@@ -277,7 +277,7 @@ form button.btn-primary:hover{
 } 
 .featured .media i{
     font-size: 24px;
-    color: #c0cd29;
+    color: #c1d60d;
 } 
 .featured .media h5{
     text-transform: uppercase;
@@ -306,132 +306,43 @@ form button.btn-primary:hover{
     background-color: #fff;
 }
   
-  /*-----------------------------------
-      1 - Recent Posts
-  ------------------------------------*/
-.recent-posts{
-    padding: 65px 0 100px;
-}
-  
-.recent-posts .btn{
-    margin-top: 60px;
-}
-  
-.recent-posts .row .col-lg-6:nth-of-type(odd) .post-thumb{
-    margin-top: 30px;
-}
-  
-.recent-posts .row .col-lg-6:nth-of-type(even) .post-thumb{
-    margin-bottom: 30px;
-}
-  
-.single-rpost{
-    margin: 35px 0 0;
-}
-  
-.post-thumb{
-    flex: 0 0 273px;
-}
-  
-.post-content{
-    color: #ccc;
-}
-  
-.post-content time{
-    font-size: 14px;
-    color: #ccc;
-}
-  
-.post-content h3{
-    margin: 10px 0 2px;
-}
-  
-.post-content h3 a{
-    color: #26264b;
-    font-weight: 600;
-}
-  
-.post-content h3 a:hover{
-    font-weight: 700;
-    text-decoration: none;
-}
-  
-.post-content a{
-    color: #ccc;
-}
-  
-.post-content a:hover{
-    color: #26264b;
-}
-  
-.post-content .post-btn{
-    color: #6e6e6e;
-    text-align: center;
-    font-size: 10px;
-    display: inline-block;
-    width: 38px;
-    height: 38px;
-    line-height: 38px;
-    border-radius: 50%;
-    background-color: whitesmoke;
-}
-  
-.post-content .post-btn:hover{
-    color: #fff;
-    background-color: #ee1515;
-}
-  
-  /*-----------------------------------
-      1 - Trust
-  ------------------------------------*/
+/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
+##### ##### ##### #####  Trust  ##### ##### ##### #####
+*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 .trust{
     padding: 75px 0;
-    background-color: #26264b;
-    color: #ddd;
+    background-color: #c1d60d;
+    color: #f5f5f5;
     position: relative;
-}
-  
+} 
 .trust .title{
     margin-bottom: 46px;
-}
-  
-.trust h1{
-    color: #fff;
-}
-  
+} 
 .trust h5{
     font-size: 24px;
-    color: #fefefe;
     margin: 28px 0 12px;
-}
-  
+} 
 .trust ul{
-    color: #fff;
     -webkit-column-count: 2;
        -moz-column-count: 2;
             column-count: 2;
 }
-  
 .trust li{
     margin-bottom: 15px;
-}
-  
+} 
 .trust .gallery img{
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     height: 100%;
-}
-  
+} 
 .trust .gal-img{
     display: inline-block;
     position: relative;
     z-index: 1;
-}
-  
+} 
 .trust .gal-img i{
     font-size: 72px;
-    color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -440,7 +351,6 @@ form button.btn-primary:hover{
     opacity: 0;
     z-index: 2;
 }
-  
 .trust .gal-img::after{
     content: "";
     width: 100%;
@@ -452,43 +362,37 @@ form button.btn-primary:hover{
     opacity: 0;
     transition: all 0.2s ease-in-out;
 }
-  
 .trust .gal-img:hover{
     cursor: pointer;
-}
-  
+} 
 .trust .gal-img:hover i{
     opacity: 1;
 }
-  
 .trust .gal-img:hover::after{
     opacity: 1;
-}
-  
+} 
 .trust .gal-img3{
     top: -50%;
     left: 50%;
 }
   
-  /*-----------------------------------
-      1 - Pricing Table
-  ------------------------------------*/
+/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
+##### ##### ##### ##### Pricing ##### ##### ##### #####
+*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 .pricing-table{
     padding: 100px 0;
 }
-  
 .single-pricing{
     padding: 65px 0 40px;
     margin-top: 23px;
-    color: #fff;
-    background: #26264b;
-    border: 0px solid #fff;
+    color: #f5f5f5;
+    background: #322f2c;
+    border: 0px solid #f5f5f5;
     position: relative;
     overflow: hidden;
     z-index: 1;
     transition: all 0.2s ease-in-out;
 }
-  
 .single-pricing span{
     font-size: 12px;
     text-transform: uppercase;
@@ -500,11 +404,9 @@ form button.btn-primary:hover{
     right: 6px;
     transition: all 0.2s ease-in-out;
 }
-  
 .single-pricing h2{
     margin-bottom: -5px;
 }
-  
 .single-pricing .desc{
     color: #9d9d9d;
     padding-bottom: 30px;
@@ -512,20 +414,16 @@ form button.btn-primary:hover{
     border-bottom: 2px solid #2f2f2f;
     transition: all 0.2s ease-in-out;
 }
-  
 .single-pricing .price{
     font-size: 2rem;
     margin-bottom: 8px;
 }
-  
 .single-pricing p{
-    color: #ddd;
+    color: #f5f5f5;
 }
-  
 .single-pricing p:last-of-type{
     margin-bottom: 25px;
 }
-  
 .single-pricing svg{
     width: 170px;
     position: absolute;
@@ -534,45 +432,38 @@ form button.btn-primary:hover{
     z-index: -1;
     transition: all 0.5s ease-in-out;
 }
-  
 .single-pricing:hover{
-    border: 4px solid #fff;
+    border: 4px solid #f5f5f5;
     box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.16);
     margin: 19px 0 -4px;
 }
-  
 .single-pricing:hover span{
-    background-color: #26264b;
+    background-color: #c1d60d;
 }
-  
 .single-pricing:hover .desc{
-    color: #fff;
+    color: #f5f5f5;
     border-bottom: 2px solid rgba(245, 245, 245, 0.322);
-}
-  
+} 
 .single-pricing:hover svg{
     width: 500%;
     top: -200%;
     right: -50%;
-}
-  
+} 
 .single-pricing:hover .btn{
     box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
 }
   
-  /*-----------------------------------
-      1 - Testimonials
-  ------------------------------------*/
+/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
+##### ##### ##### ##### Pricing ##### ##### ##### #####
+*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 .testimonial-and-clients{
-    background: url(../images/test-clients-bg.png) center center/cover no-repeat #ee1515;
-}
-  
+    background: url(../images/test-clients-bg.png) center center/cover no-repeat #322f2c;
+}  
 .testimonials{
     padding: 95px 0 85px;
-    color: #fff;
-    border-bottom: 1px solid #26264b;
+    color: #f5f5f5;
+    border-bottom: 1px solid #c1d60d;
 }
-  
 .testimonials .test-img{
     width: 90px;
     height: 90px;
@@ -580,52 +471,43 @@ form button.btn-primary:hover{
     margin: 0 auto;
     overflow: hidden;
 }
-  
 .testimonials .test-img img{
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
     height: 90px;
 }
-  
 .testimonials h5{
-    color: #26264b;
+    color: #c1d60d;
     margin-top: 15px;
 }
-  
 .testimonials span{
-    color: #c4c4c4;
+    color: whitesmoke;
     display: inline-block;
     margin: 0 0 17px;
 }
-  
 .testimonials p{
     font-size: 17px;
     line-height: 27px;
-}
-  
+} 
 .test-pagination{
     text-align: center;
     margin-top: 8px;
-}
-  
+} 
 .test-pagination span{
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background-color: #26264b;
+    background-color: #c1d60d;
     margin-bottom: 0;
     transition: all 0.2s ease-in-out;
-}
-  
+} 
 .test-pagination span:hover{
     cursor: pointer;
 }
-  
 .test-pagination span:not(:last-child){
     margin-right: 10px;
 }
-  
 .test-pagination span.swiper-pagination-bullet-active{
     width: 12px;
     height: 12px;
@@ -641,13 +523,6 @@ form button.btn-primary:hover{
   
 .clients .swiper-wrapper{
     text-align: center;
-}
-  
-  /*-----------------------------------
-      1 - CTA 2
-  ------------------------------------*/
-.cta2{
-    margin: 50px 0 -30px;
 }
   
 /*** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -670,7 +545,7 @@ footer{
     margin-bottom: 45px;
 }
 .sqare i, .twitter i{
-    color: #c0cd29;
+    color: #c1d60d;
 } 
 .sqare .media{
     margin-bottom: 20px;
@@ -721,7 +596,7 @@ footer{
 .social-icons a:hover{
     text-decoration: none;
     color: #322f2c;
-    background-color: #c0cd29;
+    background-color: #c1d60d;
 } 
 .subscribe form{
     margin-bottom: 10px;
@@ -740,7 +615,7 @@ footer{
     box-shadow: none;
 }
 .subscribe button{
-    background: #c0cd29;
+    background: #c1d60d;
     border: none;
     padding: 9px 14px;
     border-top-right-radius: 10px;
