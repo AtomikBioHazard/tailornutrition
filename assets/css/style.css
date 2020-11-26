@@ -15,6 +15,14 @@
 --------------------------------------------------------------------*/
 
 /*** *** *** *** *** *** *** *** *** *** *** *** *** ***
+##### ##### ##### #####   Body   ##### ##### ##### #####
+*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
+body{
+    background-color: #322f2c;
+    color: #f5f5f5;
+    width: 100%;
+}
+/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
 ##### ##### ##### #####  Header  ##### ##### ##### #####
 *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 header{
@@ -316,7 +324,7 @@ form button.btn-primary:hover{
     position: relative;
 } 
 .trust .title{
-    margin-bottom: 46px;
+    margin-bottom: 40px;
 } 
 .trust h5{
     font-size: 24px;
@@ -338,18 +346,9 @@ form button.btn-primary:hover{
 } 
 .trust .gal-img{
     display: inline-block;
+    width: max-content;
     position: relative;
     z-index: 1;
-} 
-.trust .gal-img i{
-    font-size: 72px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    opacity: 0;
-    z-index: 2;
 }
 .trust .gal-img::after{
     content: "";
@@ -365,9 +364,6 @@ form button.btn-primary:hover{
 .trust .gal-img:hover{
     cursor: pointer;
 } 
-.trust .gal-img:hover i{
-    opacity: 1;
-}
 .trust .gal-img:hover::after{
     opacity: 1;
 } 
