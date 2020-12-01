@@ -25,17 +25,15 @@ body{
 ##### ##### ##### #####  Footer  ##### ##### ##### #####
 *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 footer{
-    background-image: url('#') center center/cover no-repeat;
+    background: url('https://i.postimg.cc/MpyjWKYw/footer-bg.png') center center/cover no-repeat rgba(192, 205, 41, 0.2);
 }
-
-/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
-##### ##### ##### ##### FootNote ##### ##### ##### #####
-*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
-.footnote{
-    padding: 35px 0;
-    background-color: #322d2c;
+.footsection{
+    padding: 45px 0;
 }
-.footnote a{
+.footsection{
+    margin: 40px 0 30px;
+}
+.footsection a{
     color: #f5f5f5;
     text-decoration: none;
 }
@@ -44,4 +42,9 @@ footer{
 }
 .footnote a.developer{
     margin-left: 0;
+}
+.sqare .titlesqare{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
 }
