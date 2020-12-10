@@ -26,6 +26,7 @@ body{
 *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 footer{
     background: url('https://i.postimg.cc/MpyjWKYw/footer-bg.png') center center/cover no-repeat rgba(192, 205, 41, 0.2);
+    position: relative;
 }
 .footsection{
     padding: 45px 0;
