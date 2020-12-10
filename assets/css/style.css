@@ -29,8 +29,6 @@ footer{
 }
 .footsection{
     padding: 45px 0;
-}
-.footsection{
     margin: 40px 0 30px;
 }
 .footsection a{
@@ -42,9 +40,4 @@ footer{
 }
 .footnote a.developer{
     margin-left: 0;
-}
-.sqare .titlesqare{
-    font-size: 17px;
-    text-transform: uppercase;
-    margin-bottom: 45px;
 }
