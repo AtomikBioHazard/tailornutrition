@@ -7,7 +7,7 @@
 4 - 
 5 - 
 6 - 
-7 - 
+7 -     PRICING
 8 -     TESTIMONAL
 9 -     CUSTOMERS
 10 -    FOOTER
@@ -28,6 +28,50 @@ body{
 /*** *** *** *** *** *** *** *** *** *** *** *** *** ***
 ##### ##### ##### #####  Loader  ##### ##### ##### #####
 *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
+
+/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
+##### ##### ##### ##### Pricing ##### ##### ##### #####
+*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
+.price-table{
+    padding: 100px 0;
+}
+.columns{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.card .header{
+    background-color: #c1d60d;
+    font-size: 25px;
+}
+.card .price{
+    color: gray;
+    font-size: 22px;
+}
+.card .description{
+    padding: 0;
+    color: #322f2c;
+}
+.card button{
+    padding: 12px;
+    background-color: #c1d60d;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card:hover{
+    box-shadow: 0 8px 12px 0;
+}
+.card button:hover{
+    opacity: 0.7;
+}
 
 /*** *** *** *** *** *** *** *** *** *** *** *** *** ***
 ##### ##### #####      Testimonial      ##### ##### #####
