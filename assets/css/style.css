@@ -149,7 +149,7 @@ footer{
     background: url('https://i.postimg.cc/MpyjWKYw/footer-bg.png') center center/cover no-repeat rgba(192, 205, 41, 0.2);
 }
 .footsection{
-    padding: 55px 0;
+    padding: 45px 0;
     margin: 40px 0 30px;
 }
 .footsection a{
@@ -161,9 +161,4 @@ footer{
 }
 .footnote a.developer{
     margin-left: 0;
-}
-.sqare .titlesqare{
-    font-size: 17px;
-    text-transform: uppercase;
-    margin-bottom: 45px;
 }
