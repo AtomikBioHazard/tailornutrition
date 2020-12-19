@@ -30,6 +30,77 @@ body{
 *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 
 /*** *** *** *** *** *** *** *** *** *** *** *** *** ***
+##### ##### ##### #####  Trust  ##### ##### ##### #####
+*** *** *** *** *** *** *** *** *** *** *** *** *** ***/
+.trust{
+    padding: 75px 0;
+    background-color: #c1d60d;
+    color: gray;
+    position: relative;
+}
+.trust ul{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+.trust li{
+    margin-bottom: 15px;
+}
+.trust .gallery img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+  }
+  
+  .trust .gal-img {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .trust .gal-img i {
+    font-size: 72px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 2;
+  }
+  
+  .trust .gal-img::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .trust .gal-img:hover {
+    cursor: pointer;
+  }
+  
+  .trust .gal-img:hover i {
+    opacity: 1;
+  }
+  
+  .trust .gal-img:hover::after {
+    opacity: 1;
+  }
+  
+  .trust .gal-img3 {
+    top: -50%;
+    left: 50%;
+  }
+
+/*** *** *** *** *** *** *** *** *** *** *** *** *** ***
 ##### ##### ##### ##### Pricing ##### ##### ##### #####
 *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 .price-table{
